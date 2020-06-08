@@ -264,7 +264,7 @@
                         }
                     },
                     "osProfile": {
-                        "computerNamePrefix": "[concat('cntrlibfw', variables('namingInfix'))]",
+                        "computerNamePrefix": "[concat('centrlibfw', variables('namingInfix'))]",
                         "adminUsername": "[parameters('adminUsername')]",
                         "adminPassword": "[parameters('adminPassword')]",
                         "customData": "[base64(parameters('customDataField'))]"
