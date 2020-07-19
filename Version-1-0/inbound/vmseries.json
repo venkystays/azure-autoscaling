@@ -264,7 +264,7 @@
                         }
                     },
                     "osProfile": {
-                        "computerNamePrefix": "[concat('eastus2ibfw', variables('namingInfix'))]",
+                        "computerNamePrefix": "[concat('centralibfw', variables('namingInfix'))]",
                         "adminUsername": "[parameters('adminUsername')]",
                         "adminPassword": "[parameters('adminPassword')]",
                         "customData": "[base64(parameters('customDataField'))]"
